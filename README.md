@@ -2,7 +2,9 @@
 
 This repository holds my weekly notebooks from an introductory AI course. Each notebook contains the exercise, code and any output saved during the course. Some cells and companion files were provided as teaching material.
 
-The root notebooks are organised by week, including [Week 2](21800275_SangheonPark_Week2.ipynb), [Week 6](21800275_SangheonPark_Week6.ipynb) and [Week 11](21800275_SangheonPark_Week11.ipynb). The [Exercise](Exercise) directory contains companion versions, which may overlap with the root files.
+The root notebooks are organised by week, including [Week 2](21800275_SangheonPark_Week2.ipynb), [Week 6](21800275_SangheonPark_Week6.ipynb) [Week 11](21800275_SangheonPark_Week11.ipynb) and [Week 13](21800275_SangheonPark_Week13.ipynb). The [Exercise](Exercise) directory contains companion versions, which may overlap with the root files.
+
+Week 13 was added from my local copy on 28 September 2026. Its stored outputs and execution counters were cleared; its code has not been rerun.
 
 You can read the notebooks directly on GitHub. Their version-4 notebook structure was checked on 28 September 2026, but the cells were not rerun. Saved outputs reflect the original environment and should not be treated as newly reproduced results.
 
