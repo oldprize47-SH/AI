@@ -6,6 +6,18 @@ The root notebooks are organised by week, including [Week 2](21800275_SangheonPa
 
 Week 13 was added from my local copy on 28 September 2026. Its stored outputs and execution counters were cleared; its code has not been rerun.
 
+## How to read the notebooks
+
+The notebooks are coursework records rather than a single application with one entry point. Open a week, read the exercise and imports, then follow the cells in their original order. Variables created in an earlier cell may be required later, so a cell copied out of context may not run by itself. The `Exercise` copies should not be counted as separate projects simply because the filenames overlap.
+
+[Week 13](21800275_SangheonPark_Week13.ipynb) includes text-processing and classification code using scikit-learn and NLTK. It is a useful recent entry point for seeing how text is turned into features before a classifier is applied. Check its file references and library imports before attempting a full run; the presence of a notebook does not guarantee that every external dataset or language resource is included.
+
+## Running your own copy
+
+Use a Jupyter-compatible environment and inspect the selected notebook's imports and data paths first. Install the packages required by that notebook, start a clean kernel and execute the cells in order. There is no validated repository-wide environment lock or one-command test for every week.
+
+Saved cell output can help explain what a course exercise did, but it can outlive the code or environment that produced it. Week 13 intentionally has no stored output, so there are no newly reproduced scores to report for that addition. I retain the distinction between my coursework, supplied exercise material and later portfolio maintenance.
+
 You can read the notebooks directly on GitHub. Their version-4 notebook structure was checked on 28 September 2026, but the cells were not rerun. Saved outputs reflect the original environment and should not be treated as newly reproduced results.
 
 [Original repository](https://github.com/oldprize47/Introduction_AI). Original history and attribution are retained.
