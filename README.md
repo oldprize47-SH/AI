@@ -27,21 +27,21 @@ AI로 생성한 콘셉트 일러스트입니다. 기기의 외형, 인터페이�
 
 ![AI 실습: 노트북 작업 흐름](docs/flowcharts/ai.png)
 
-각 행은 서로 독립적인 실습이나 작업 흐름을 설명합니다. 이 저장소 전체가 하나로 연결된 애플리케이션은 아닙니다. [SVG](docs/flowcharts/ai.svg)
+각 행을 따라가며 독립적인 실습이나 작업 흐름을 살펴볼 수 있습니다. 저장소 전체가 하나로 연결된 애플리케이션은 아니라는 점을 참고하면 구성을 이해하기 쉽습니다. [SVG](docs/flowcharts/ai.svg)
 
 ### 노트북 읽는 방법
 
-이 노트북들은 하나의 진입점으로 실행하는 단일 애플리케이션이 아니라 수업 과제 기록입니다. 한 주차의 노트북을 열어 과제와 가져오는 라이브러리를 읽고, 원래 순서대로 셀을 따라가면 됩니다. 앞선 셀에서 만든 변수가 뒤에서 필요할 수 있으므로, 맥락 없이 복사한 셀은 단독으로 실행되지 않을 수 있습니다. `Exercise`의 사본은 파일명이 겹친다는 이유만으로 별도 프로젝트로 세어서는 안 됩니다.
+관심 있는 주차의 노트북을 열어 과제와 가져오는 라이브러리부터 살펴보면 좋습니다. 각 노트북은 수업 과제 기록으로, 하나의 진입점에서 실행하는 단일 애플리케이션은 아닙니다. 셀은 원래 순서대로 따라가면 됩니다. 앞선 셀에서 만든 변수가 뒤에서 필요할 수 있으므로, 맥락 없이 복사한 셀은 단독으로 실행되지 않을 수 있습니다. `Exercise`의 사본은 루트 파일과 겹칠 수 있으므로, 같은 파일명만으로 별도 프로젝트로 구분하지 않고 함께 읽는 것이 좋습니다.
 
-[13주차](21800275_SangheonPark_Week13.ipynb)에는 scikit-learn과 NLTK를 사용하는 텍스트 처리 및 분류 코드가 있습니다. 분류기를 적용하기 전에 텍스트를 어떻게 특징으로 바꾸는지 살펴볼 수 있는, 비교적 최근에 추가된 출발점입니다. 전체 실행을 시도하기 전에 참조하는 파일과 가져오는 라이브러리를 확인해야 합니다. 노트북이 있다는 사실만으로 모든 외부 데이터셋이나 언어 리소스가 포함되어 있다고 보장할 수는 없습니다.
+[13주차](21800275_SangheonPark_Week13.ipynb)에는 scikit-learn과 NLTK를 사용하는 텍스트 처리 및 분류 코드가 있습니다. 분류기를 적용하기 전에 텍스트를 어떻게 특징으로 바꾸는지 살펴볼 수 있는, 비교적 최근에 추가된 출발점입니다. 실행을 준비할 때는 참조하는 파일과 가져오는 라이브러리부터 확인하면 됩니다. 외부 데이터셋이나 언어 리소스가 모두 포함되어 있다고 보장되지는 않으므로, 필요한 자료를 함께 확인하는 과정이 필요합니다.
 
 ### 사본 실행하기
 
-Jupyter와 호환되는 환경을 사용하고, 먼저 선택한 노트북이 가져오는 라이브러리와 데이터 경로를 확인하세요. 해당 노트북에 필요한 패키지를 설치하고, 새 커널을 시작한 뒤, 셀을 순서대로 실행하면 됩니다. 저장소 전체에 대해 검증된 환경 잠금 파일이나 모든 주차를 한 번에 검사하는 단일 명령은 없습니다.
+Jupyter와 호환되는 환경에서, 선택한 노트북이 가져오는 라이브러리와 데이터 경로부터 확인하면 시작하기 수월합니다. 해당 노트북에 필요한 패키지를 설치하고, 새 커널을 시작한 뒤, 셀을 순서대로 실행하면 됩니다. 저장소 전체에 대해 검증된 환경 잠금 파일이나 모든 주차를 한 번에 검사하는 단일 명령은 없습니다.
 
 저장된 셀 출력은 수업 실습이 무엇을 했는지 이해하는 데 도움이 되지만, 이를 생성한 코드나 환경이 바뀐 뒤에도 남아 있을 수 있습니다. 13주차는 의도적으로 저장된 출력을 포함하지 않으므로, 이 추가분에 대해 새로 재현한 점수를 보고할 수는 없습니다. 이 아카이브는 제출한 수업 과제, 제공받은 실습 자료, 이후의 포트폴리오 유지보수 작업을 구분합니다.
 
-노트북은 GitHub에서 바로 읽을 수 있습니다. 2026년 9월 28일에 버전 4 노트북 구조를 확인했지만, 셀은 다시 실행하지 않았습니다. 저장된 출력은 원래 환경의 결과이며, 새로 재현한 결과로 간주해서는 안 됩니다.
+노트북은 GitHub에서 바로 읽을 수 있습니다. 2026년 9월 28일에 버전 4 노트북 구조를 확인했지만, 셀은 다시 실행하지 않았습니다. 저장된 출력은 원래 환경에서 얻은 결과를 이해하기 위한 참고자료이며, 새로 재현한 결과는 아닙니다.
 
 [원본 저장소](https://github.com/oldprize47/Introduction_AI). 원래 이력과 저작자 표기를 유지합니다.
 
@@ -74,20 +74,20 @@ These exercises can support early experiments with data preparation, classificat
 
 ![AI coursework: notebook workflow](docs/flowcharts/ai.png)
 
-Each row describes an independent exercise or workflow; the repository is not one connected application. [SVG](docs/flowcharts/ai.svg)
+You can read each row as an independent exercise or workflow. The repository brings these exercises together, but they do not form one connected application. [SVG](docs/flowcharts/ai.svg)
 
 ### How to read the notebooks
 
-The notebooks are coursework records rather than a single application with one entry point. Open a week, read the exercise and imports, then follow the cells in their original order. Variables created in an earlier cell may be required later, so a cell copied out of context may not run by itself. The `Exercise` copies should not be counted as separate projects simply because the filenames overlap.
+A useful starting point is a week that interests you: read the exercise and imports, then follow the cells in their original order. Each notebook is a coursework record, rather than part of a single application with one entry point. Variables created in an earlier cell may be required later, so a cell copied out of context may not run by itself. The `Exercise` copies may overlap with the root files, so it helps to read them together rather than count matching filenames as separate projects.
 
-[Week 13](21800275_SangheonPark_Week13.ipynb) includes text-processing and classification code using scikit-learn and NLTK. It is a useful recent entry point for seeing how text is turned into features before a classifier is applied. Check its file references and library imports before attempting a full run; the presence of a notebook does not guarantee that every external dataset or language resource is included.
+[Week 13](21800275_SangheonPark_Week13.ipynb) includes text-processing and classification code using scikit-learn and NLTK. It is a useful recent entry point for seeing how text is turned into features before a classifier is applied. To prepare for a full run, start with its file references and library imports. External datasets and language resources are not guaranteed to be included, so these references help you identify what you need.
 
 ### Running your own copy
 
-Use a Jupyter-compatible environment and inspect the selected notebook's imports and data paths first. Install the packages required by that notebook, start a clean kernel and execute the cells in order. There is no validated repository-wide environment lock or one-command test for every week.
+To get started in a Jupyter-compatible environment, first look through the selected notebook's imports and data paths. Install the packages required by that notebook, start a clean kernel and execute the cells in order. There is no validated repository-wide environment lock or one-command test for every week.
 
 Saved cell output can help explain what a course exercise did, but it can outlive the code or environment that produced it. Week 13 intentionally has no stored output, so there are no newly reproduced scores to report for that addition. The archive distinguishes coursework submissions, supplied exercise material and later portfolio maintenance.
 
-You can read the notebooks directly on GitHub. Their version-4 notebook structure was checked on 28 September 2026, but the cells were not rerun. Saved outputs reflect the original environment and should not be treated as newly reproduced results.
+You can read the notebooks directly on GitHub. Their version-4 notebook structure was checked on 28 September 2026, but the cells were not rerun. Saved outputs offer a reference for the original environment; they are not newly reproduced results.
 
 [Original repository](https://github.com/oldprize47/Introduction_AI). Original history and attribution are retained.
