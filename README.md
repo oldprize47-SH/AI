@@ -10,6 +10,8 @@
 
 ## 한국어
 
+[코드 읽는 순서](#코드-따라-읽기)
+
 
 
 이 저장소에는 Sangheon Park가 AI 입문 수업에서 작성한 주차별 노트북이 담겨 있습니다. 각 노트북에는 실습 과제, 코드, 수업 당시 저장한 출력이 포함되어 있습니다. 일부 셀과 함께 사용하는 파일은 수업 자료로 제공되었습니다.
@@ -32,11 +34,11 @@
 
 
 
-![프로젝트 목표: ai-coursework](docs/goals/project-focus-v1.png)
+![프로젝트 목표: ai-coursework](docs/goals/goal.png)
 
 
 
-AI로 생성한 콘셉트 일러스트입니다. 기기의 외형, 인터페이스 배치, 예시 그래픽은 설명을 위한 표현이며, 실제 프로젝트 사진이나 측정 결과가 아닙니다.
+<sub>AI 생성 개념도</sub>
 
 
 
@@ -56,9 +58,21 @@ AI로 생성한 콘셉트 일러스트입니다. 기기의 외형, 인터페이�
 
 
 
-각 행을 따라가며 독립적인 실습이나 작업 흐름을 살펴볼 수 있습니다. 저장소 전체가 하나로 연결된 애플리케이션은 아니라는 점을 참고하면 구성을 이해하기 쉽습니다. [SVG](docs/flowcharts/ai.svg)
+<sub>[SVG](docs/flowcharts/ai.svg)</sub>
 
 
+
+### 코드 따라 읽기
+
+아래 순서는 파일의 역할과 연결을 이해하기 위한 안내입니다. 독립 과제나 보드별 프로그램은 한꺼번에 실행하지 않고 해당 항목의 실행 안내를 따릅니다.
+
+| 순서 | 파일 | 역할과 다음 단계 |
+|---|---|---|
+| 1 | [21800275_SangheonPark_Week4.ipynb](21800275_SangheonPark_Week4.ipynb) | Titanic CSV를 읽는 셀부터 표 형식 데이터의 처리 순서를 따라갑니다. |
+| 2 | [21800275_SangheonPark_Week6.ipynb](21800275_SangheonPark_Week6.ipynb) | 텍스트 처리에 쓰이는 라이브러리와 언어 리소스를 확인하고 전처리 셀을 순서대로 읽습니다. |
+| 3 | [21800275_SangheonPark_Week9.ipynb](21800275_SangheonPark_Week9.ipynb) | 군집화와 덴드로그램·실루엣 관련 셀을 따라 입력과 시각화의 관계를 읽습니다. |
+| 4 | [21800275_SangheonPark_Week13.ipynb](21800275_SangheonPark_Week13.ipynb) | 텍스트를 CountVectorizer 특징으로 바꾸고 Naive Bayes로 분류하는 흐름입니다. data/emails.csv 등 입력 파일을 먼저 준비합니다. |
+| 5 | [Exercise](Exercise) | 같은 주차의 보조 실습을 비교할 때 참고합니다. 루트 노트북 다음에 무조건 실행하는 파이프라인은 아닙니다. |
 
 ### 노트북 읽는 방법
 
@@ -100,6 +114,8 @@ Jupyter와 호환되는 환경에서, 선택한 노트북이 가져오는 라이
 
 ## English
 
+[Code walkthrough](#code-walkthrough)
+
 
 
 **AI and Data Analysis Labs**
@@ -126,11 +142,11 @@ Learn how preprocessing, features and models turn raw data into interpretable an
 
 
 
-![Project goal: ai-coursework](docs/goals/project-focus-v1.png)
+![Project goal: ai-coursework](docs/goals/goal.png)
 
 
 
-AI-generated concept illustration. Device appearance, interface layout and example graphics are illustrative, not project photographs or measured results.
+<sub>AI-generated concept illustration</sub>
 
 
 
@@ -150,7 +166,7 @@ These exercises can support early experiments with data preparation, classificat
 
 
 
-You can read each row as an independent exercise or workflow. The repository brings these exercises together, but they do not form one connected application. [SVG](docs/flowcharts/ai.svg)
+<sub>[SVG](docs/flowcharts/ai.svg)</sub>
 
 
 
@@ -165,6 +181,18 @@ A useful starting point is a week that interests you: read the exercise and impo
 [Week 13](21800275_SangheonPark_Week13.ipynb) includes text-processing and classification code using scikit-learn and NLTK. It is a useful recent entry point for seeing how text is turned into features before a classifier is applied. To prepare for a full run, start with its file references and library imports. External datasets and language resources are not guaranteed to be included, so these references help you identify what you need.
 
 
+
+### Code walkthrough
+
+Use this order to understand each file and its connections. Independent exercises and board targets are not one executable; follow the relevant run instructions below.
+
+| Step | File | Role and next step |
+|---|---|---|
+| 1 | [21800275_SangheonPark_Week4.ipynb](21800275_SangheonPark_Week4.ipynb) | Follow tabular-data processing from the Titanic CSV loading cell. |
+| 2 | [21800275_SangheonPark_Week6.ipynb](21800275_SangheonPark_Week6.ipynb) | Check text-processing libraries and language resources, then follow preprocessing cells in order. |
+| 3 | [21800275_SangheonPark_Week9.ipynb](21800275_SangheonPark_Week9.ipynb) | Trace clustering, dendrogram and silhouette-related cells from inputs to visualisation. |
+| 4 | [21800275_SangheonPark_Week13.ipynb](21800275_SangheonPark_Week13.ipynb) | Follow text through CountVectorizer features into Naive Bayes classification; prepare inputs such as data/emails.csv first. |
+| 5 | [Exercise](Exercise) | Compare supplementary exercises for the same week; this is not a mandatory pipeline after the root notebooks. |
 
 ### Running your own copy
 
@@ -183,4 +211,3 @@ You can read the notebooks directly on GitHub. Their version-4 notebook structur
 
 
 [Original repository](https://github.com/oldprize47/Introduction_AI). Original history and attribution are retained.
-
